@@ -5,23 +5,23 @@ import { ShoppingCart, MessageCircle, CheckCircle, Send } from "lucide-react";
 const steps = [
   {
     icon: ShoppingCart,
-    title: "Choose Your Product",
-    description: "Browse our products and select your preferred subscription duration",
+    title: "Pilih Produk Anda",
+    description: "Jelajahi produk kami dan pilih durasi langganan yang Anda inginkan",
   },
   {
     icon: MessageCircle,
-    title: "Click 'Order Now'",
-    description: "You will be directed to WhatsApp for secure checkout",
+    title: "Klik 'Order Sekarang'",
+    description: "Anda akan diarahkan ke WhatsApp untuk proses checkout yang aman",
   },
   {
     icon: CheckCircle,
-    title: "We Confirm Your Order",
-    description: "Our team will verify your order details and process payment",
+    title: "Kami Konfirmasi Pesanan Anda",
+    description: "Tim kami akan memverifikasi detail pesanan Anda dan memproses pembayaran",
   },
   {
     icon: Send,
-    title: "Instant Delivery",
-    description: "Receive your account credentials within minutes via WhatsApp",
+    title: "Pengiriman Instan",
+    description: "Akun atau kode akan dikirim dalam hitungan menit melalui WhatsApp",
   },
 ];
 
@@ -33,10 +33,10 @@ export const HowToOrder = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
-            How to <span className="bg-gradient-primary bg-clip-text text-transparent">Order</span>
+            Cara <span className="bg-gradient-primary bg-clip-text text-transparent">Order</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Simple and secure ordering process in just 4 easy steps
+            Proses pemesanan mudah dan aman hanya dalam 4 langkah
           </p>
         </div>
 
@@ -65,12 +65,12 @@ export const HowToOrder = () => {
 
         <div className="text-center">
           <Button variant="hero" size="lg" asChild className="animate-glow-pulse">
-            <a href="https://wa.me/6285795140765" target="_blank" rel="noopener noreferrer">
-              Order Now on WhatsApp
+            <a href="https://wa.me/6282115360819" target="_blank" rel="noopener noreferrer">
+              Order Sekarang via WhatsApp
             </a>
           </Button>
           <p className="text-sm text-muted-foreground mt-4">
-            Available 24/7 • Fast Response • Secure Payment
+            Tersedia 24/7 • Respon Cepat • Pembayaran Aman
           </p>
         </div>
       </div>

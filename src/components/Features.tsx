@@ -4,33 +4,33 @@ import { Card } from "./ui/card";
 const features = [
   {
     icon: Clock,
-    title: "Instant Delivery",
-    description: "Get your account credentials within minutes of ordering. No waiting, no delays.",
+    title: "Pengiriman Instan",
+    description: "Dapatkan detail akun Anda dalam hitungan menit setelah pemesanan. Tanpa menunggu lama.",
   },
   {
     icon: DollarSign,
-    title: "Affordable Prices",
-    description: "Premium subscriptions at unbeatable prices. Save up to 80% compared to official rates.",
+    title: "Harga Terjangkau",
+    description: "Langganan premium dengan harga terbaik. Hemat hingga 80% dibanding harga resmi.",
   },
   {
     icon: Shield,
-    title: "Secure & Guaranteed",
-    description: "All accounts are verified and safe to use. Your privacy is our top priority.",
+    title: "Aman & Terjamin",
+    description: "Semua akun diverifikasi dan aman digunakan. Privasi Anda adalah prioritas kami.",
   },
   {
     icon: Headphones,
-    title: "24/7 Customer Support",
-    description: "Our dedicated team is always ready to help you with any questions or issues.",
+    title: "Dukungan Pelanggan 24/7",
+    description: "Tim kami siap membantu Anda kapan saja jika ada pertanyaan atau kendala.",
   },
   {
     icon: RefreshCw,
-    title: "100% Replacement Warranty",
-    description: "If any account stops working, we'll replace it immediately at no extra cost.",
+    title: "Garansi Penggantian 100%",
+    description: "Jika akun Anda bermasalah, kami akan menggantinya secara langsung tanpa biaya tambahan.",
   },
   {
     icon: CheckCircle,
-    title: "Quality Assurance",
-    description: "Every account is tested before delivery to ensure the best experience for you.",
+    title: "Kualitas Terjamin",
+    description: "Setiap akun diuji terlebih dahulu sebelum dikirim agar Anda mendapatkan pengalaman terbaik.",
   },
 ];
 
@@ -42,10 +42,10 @@ export const Features = () => {
       <div className="container mx-auto relative z-10">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl md:text-5xl font-bold">
-            Why Choose <span className="bg-gradient-primary bg-clip-text text-transparent">Us?</span>
+            Kenapa Memilih <span className="bg-gradient-primary bg-clip-text text-transparent">Kami?</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            We provide the best service in the market with unmatched quality and reliability
+            Kami menyediakan layanan terbaik di pasaran dengan kualitas dan keandalan yang tidak tertandingi
           </p>
         </div>
 

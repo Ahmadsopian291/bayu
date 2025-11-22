@@ -15,21 +15,21 @@ export const Hero = () => {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-card/50 border border-border backdrop-blur-sm">
             <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-            <span className="text-sm text-muted-foreground">Trusted by 10,000+ customers</span>
+            <span className="text-sm text-muted-foreground">Dipercaya oleh 10.000+ pelanggan</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-            Reliable & Affordable
+            Akun Langganan Digital
             <br />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Digital Subscription Accounts
+              Terpercaya & Terjangkau
             </span>
           </h1>
 
           {/* Sub-headline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
-            Get premium accounts instantly — Netflix, Spotify, Canva, AI tools, and more with 24/7 support.
+            Dapatkan akun premium secara instan — Netflix, Spotify, Canva, AI tools, dan banyak lagi. Dukungan 24/7 siap membantu Anda.
           </p>
 
           {/* CTA Buttons */}
@@ -40,7 +40,7 @@ export const Hero = () => {
               onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
               className="group"
             >
-              Browse Products
+              Lihat Produk
               <ShoppingBag className="ml-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
             </Button>
             <Button
@@ -49,8 +49,8 @@ export const Hero = () => {
               asChild
               className="border-primary/50 hover:bg-primary/10"
             >
-              <a href="https://wa.me/6285795140765" target="_blank" rel="noopener noreferrer" className="group">
-                Order Now
+              <a href="https://wa.me/6282115360819" target="_blank" rel="noopener noreferrer" className="group">
+                Pesan Sekarang
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
@@ -62,19 +62,19 @@ export const Hero = () => {
               <div className="w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
                 <div className="w-2 h-2 bg-primary rounded-full" />
               </div>
-              Instant Delivery
+              Pengiriman Instan
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
                 <div className="w-2 h-2 bg-primary rounded-full" />
               </div>
-              100% Warranty
+              Garansi 100%
             </div>
             <div className="flex items-center gap-2">
               <div className="w-5 h-5 bg-primary/20 rounded-full flex items-center justify-center">
                 <div className="w-2 h-2 bg-primary rounded-full" />
               </div>
-              24/7 Support
+              Dukungan 24/7
             </div>
           </div>
         </div>

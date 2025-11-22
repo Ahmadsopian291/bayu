@@ -12,26 +12,26 @@ export const Footer = () => {
             <div className="flex items-center gap-2 font-bold text-xl">
               <ShoppingBag className="h-6 w-6 text-primary" />
               <span className="bg-gradient-primary bg-clip-text text-transparent">
-                DigiAccounts
+                Bay.U Store
               </span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Your trusted source for premium digital subscription accounts at affordable prices.
+              Sumber terpercaya untuk akun langganan digital premium dengan harga terjangkau.
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="font-semibold mb-4">Quick Links</h4>
+            <h4 className="font-semibold mb-4">Tautan Cepat</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="/#products" className="hover:text-primary transition-colors">
-                  Products
+                  Produk
                 </a>
               </li>
               <li>
                 <a href="/#how-to-order" className="hover:text-primary transition-colors">
-                  How to Order
+                  Cara Pemesanan
                 </a>
               </li>
               <li>
@@ -41,7 +41,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a href="/#contact" className="hover:text-primary transition-colors">
-                  Contact
+                  Kontak
                 </a>
               </li>
             </ul>
@@ -49,7 +49,7 @@ export const Footer = () => {
 
           {/* Popular Products */}
           <div>
-            <h4 className="font-semibold mb-4">Popular Products</h4>
+            <h4 className="font-semibold mb-4">Produk Populer</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <a href="/product/netflix" className="hover:text-primary transition-colors">
@@ -76,9 +76,41 @@ export const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h4 className="font-semibold mb-4">Contact Us</h4>
+            <h4 className="font-semibold mb-4">Hubungi Kami</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
+                <a
+                  href="https://wa.me/6282115360819"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-primary transition-colors"
+                >
+                  WhatsApp: +62 821-1536-0819
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:bayustoree049@gmail.com"
+                  className="hover:text-primary transition-colors break-all"
+                >
+                  bayustoree049@gmail.com
+                </a>
+              </li>
+              <li className="text-primary">Dukungan 24/7 Tersedia</li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Bottom Bar */}
+        <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
+          <p>© {currentYear} Bay.U Store. Semua hak dilindungi.</p>
+
+          <p className="mt-2">
+            Langganan digital premium dengan harga terbaik dan garansi penuh.
+          </p>
+          <p>© {currentYear} Web Made in MadDWeb.</p>
+          <p>Order Pembuatan Website Dibawah Sini</p>
+          <li>
                 <a
                   href="https://wa.me/6285795140765"
                   target="_blank"
@@ -88,25 +120,6 @@ export const Footer = () => {
                   WhatsApp: +62 857-9514-0765
                 </a>
               </li>
-              <li>
-                <a
-                  href="mailto:ahmadsop291@gmail.com"
-                  className="hover:text-primary transition-colors break-all"
-                >
-                  ahmadsop291@gmail.com
-                </a>
-              </li>
-              <li className="text-primary">24/7 Support Available</li>
-            </ul>
-          </div>
-        </div>
-
-        {/* Bottom Bar */}
-        <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          <p>© {currentYear} DigiAccounts. All rights reserved.</p>
-          <p className="mt-2">
-            Premium digital subscriptions at unbeatable prices with lifetime warranty
-          </p>
         </div>
       </div>
     </footer>

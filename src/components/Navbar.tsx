@@ -4,11 +4,11 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 
 const navItems = [
-  { name: "Home", path: "/" },
-  { name: "Products", path: "/#products" },
-  { name: "How to Order", path: "/#how-to-order" },
+  { name: "Beranda", path: "/" },
+  { name: "Produk", path: "/#products" },
+  { name: "Cara Pemesanan", path: "/#how-to-order" },
   { name: "FAQ", path: "/#faq" },
-  { name: "Contact", path: "/#contact" },
+  { name: "Kontak", path: "/#contact" },
 ];
 
 export const Navbar = () => {
@@ -29,11 +29,12 @@ export const Navbar = () => {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
+          
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 font-bold text-xl">
             <ShoppingBag className="h-6 w-6 text-primary" />
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              DigiAccounts
+              Bay.U Store
             </span>
           </Link>
 
@@ -56,8 +57,8 @@ export const Navbar = () => {
               </a>
             ))}
             <Button variant="neon" size="sm" asChild>
-              <a href="https://wa.me/6285795140765" target="_blank" rel="noopener noreferrer">
-                Order Now
+              <a href="https://wa.me/6282115360819" target="_blank" rel="noopener noreferrer">
+                Pesan Sekarang
               </a>
             </Button>
           </div>
@@ -92,8 +93,8 @@ export const Navbar = () => {
               </a>
             ))}
             <Button variant="neon" size="sm" className="w-full" asChild>
-              <a href="https://wa.me/6285795140765" target="_blank" rel="noopener noreferrer">
-                Order Now
+              <a href="https://wa.me/6282115360819" target="_blank" rel="noopener noreferrer">
+                Pesan Sekarang
               </a>
             </Button>
           </div>
