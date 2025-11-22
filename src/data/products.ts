@@ -619,7 +619,7 @@ export const products: Product[] = [
       {
         type: "Private",
         durations: [
-          { label: "1 Month", price: 43000 },
+          { label: "1 Month", price: 40000 },
           { label: "3 Month", price: 108000 } 
         ],
       },
