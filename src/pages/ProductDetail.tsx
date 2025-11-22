@@ -435,13 +435,16 @@ const ProductDetail = () => {
 
   // WA ORDER
   const handleOrder = (serviceType: string, duration: string, price: number) => {
-    const message = `Halo, saya ingin memesan ${product.name} - ${serviceType} (${duration}) - Harga: Rp ${price.toLocaleString(
-      "id-ID"
-    )}`;
-    
-    const url = `https://wa.me/6282115360819?text=${encodeURIComponent(message)}`;
-    window.open(url, "_blank");
-  };
+  const hargaText = price && price > 0 
+    ? ` - Harga: Rp ${price.toLocaleString("id-ID")}`
+    : "";
+
+  const message = `Halo, saya ingin memesan ${product.name} - ${serviceType} (${duration})${hargaText}`;
+
+  const url = `https://wa.me/6282318179248?text=${encodeURIComponent(message)}`;
+  window.open(url, "_blank");
+};
+
 
   return (
     <div className="min-h-screen bg-background">
