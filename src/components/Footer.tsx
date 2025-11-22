@@ -102,15 +102,19 @@ export const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-border text-center text-sm text-muted-foreground">
+        <div className="pt-4 border-t border-border text-center text-sm text-muted-foreground">
           <p>© {currentYear} Bay.U Store. Semua hak dilindungi.</p>
 
-          <p className="mt-2">
+          <p className="">
             Langganan digital premium dengan harga terbaik dan garansi penuh.
           </p>
+          <div className="container mx-auto">
+        <div className="grid gap-2 mb-2">
+          <div className="pt-4  text-center text-sm text-muted-foreground">
+          
           <p>© {currentYear} Web Made in MadDWeb.</p>
           <p>Order Pembuatan Website Dibawah Sini</p>
-          <li>
+          <li className="list-none">
                 <a
                   href="https://wa.me/6285795140765"
                   target="_blank"
@@ -120,6 +124,15 @@ export const Footer = () => {
                   WhatsApp: +62 857-9514-0765
                 </a>
               </li>
+        </div>
+
+          
+         
+        </div>
+
+        
+          
+        </div>
         </div>
       </div>
     </footer>
