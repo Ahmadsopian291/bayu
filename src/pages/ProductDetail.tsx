@@ -441,7 +441,7 @@ const ProductDetail = () => {
 
   const message = `Halo, saya ingin memesan ${product.name} - ${serviceType} (${duration})${hargaText}`;
 
-  const url = `https://wa.me/6282318179248?text=${encodeURIComponent(message)}`;
+  const url = `https://wa.me/6282115360819?text=${encodeURIComponent(message)}`;
   window.open(url, "_blank");
 };
 
